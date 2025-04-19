@@ -1,0 +1,8 @@
+# Get input from the user
+num = int(input("Enter a number: "))
+
+# Convert to string and check if it's the same when reversed
+if str(num) == str(num)[::-1]:
+    print(num, "is a palindrome.")
+else:
+    print(num, "is not a palindrome.")
