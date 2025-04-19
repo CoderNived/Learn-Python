@@ -1,0 +1,14 @@
+# Get input from the user
+n = int(input("Enter the number of Fibonacci terms to print: "))
+
+# Initialize first two Fibonacci numbers
+a, b = 0, 1
+count = 0
+
+# Print Fibonacci sequence
+print("Fibonacci sequence:")
+
+while count < n:
+    print(a, end=" ")
+    a, b = b, a + b
+    count += 1
