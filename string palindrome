@@ -1,0 +1,11 @@
+# Get input from the user
+text = input("Enter a string: ")
+
+# Clean the string (optional: ignore spaces and case)
+cleaned_text = text.replace(" ", "").lower()
+
+# Check if the cleaned string is the same when reversed
+if cleaned_text == cleaned_text[::-1]:
+    print(f'"{text}" is a palindrome.')
+else:
+    print(f'"{text}" is not a palindrome.')
