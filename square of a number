@@ -1,0 +1,3 @@
+integer = int(input("enter a number"))
+square = integer**2
+print(square)
