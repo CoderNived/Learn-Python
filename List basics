@@ -1,0 +1,5 @@
+A=list(range(1,21))
+print(A)
+print(A[:5])
+print(A[:-5])
+print(A[5:16])
