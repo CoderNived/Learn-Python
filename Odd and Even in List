@@ -1,0 +1,6 @@
+A=list(range(1,100))
+print(A)
+even = [x for x in A if x%2==0]
+odd =[x for x in A if x%2 !=0 ]
+print(odd)
+print(even)
